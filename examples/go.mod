@@ -1,16 +1,16 @@
 module github.com/manuelarte/confluent-kafka-go/examples/v2
 
-go 1.21
+go 1.22.0
 
-toolchain go1.21.0
+toolchain go1.23.2
 
 replace github.com/manuelarte/confluent-kafka-go/v2 => ../
 
 require (
 	github.com/actgardner/gogen-avro/v10 v10.2.1
 	github.com/alecthomas/kingpin v2.2.6+incompatible
-	github.com/manuelarte/confluent-kafka-go/v2 v2.6.1
 	github.com/gdamore/tcell v1.4.0
+	github.com/manuelarte/confluent-kafka-go/v2 v2.0.0-20241120200402-dd1c71e72ee7
 	google.golang.org/protobuf v1.35.2
 )
 
@@ -56,7 +56,7 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.3.4 // indirect
 	github.com/googleapis/gax-go/v2 v2.13.0 // indirect
-	github.com/hamba/avro/v2 v2.24.0 // indirect
+	github.com/hamba/avro/v2 v2.27.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
