@@ -24,11 +24,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/cache"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/cache"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/serde"
 	"github.com/invopop/jsonschema"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/serde"
 	jsonschema2 "github.com/santhosh-tekuri/jsonschema/v5"
 )
 

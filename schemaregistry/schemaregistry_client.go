@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/cache"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/internal"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/cache"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/internal"
 )
 
 /* Schema Registry API endpoints

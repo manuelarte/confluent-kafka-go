@@ -2,7 +2,7 @@ package serde
 
 import (
 	"fmt"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry"
 )
 
 type SubjectNameStrategy interface {

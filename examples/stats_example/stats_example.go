@@ -18,7 +18,7 @@
 // The Stats handling code is the same for Consumers and Producers.
 //
 // The definition of the emitted statistics JSON object can be found here:
-// https://github.com/confluentinc/librdkafka/blob/master/STATISTICS.md
+// https://github.com/manuelarte/librdkafka/blob/master/STATISTICS.md
 package main
 
 import (
@@ -28,7 +28,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/kafka"
+	"github.com/manuelarte/confluent-kafka-go/v2/kafka"
 )
 
 func main() {

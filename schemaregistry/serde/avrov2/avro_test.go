@@ -22,17 +22,17 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/cel"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption"
-	_ "github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption/awskms"
-	_ "github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption/azurekms"
-	_ "github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption/gcpkms"
-	_ "github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption/hcvault"
-	_ "github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/encryption/localkms"
-	_ "github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/rules/jsonata"
+	_ "github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/rules/cel"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/rules/encryption"
+	_ "github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/rules/encryption/awskms"
+	_ "github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/rules/encryption/azurekms"
+	_ "github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/rules/encryption/gcpkms"
+	_ "github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/rules/encryption/hcvault"
+	_ "github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/rules/encryption/localkms"
+	_ "github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/rules/jsonata"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/serde"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/serde"
 )
 
 const (

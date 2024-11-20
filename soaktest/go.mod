@@ -1,10 +1,10 @@
-module github.com/confluentinc/confluent-kafka-go/soaktest/v2
+module github.com/manuelate/confluent-kafka-go/soaktest/v2
 
 go 1.21
 
 toolchain go1.21.0
 
-replace github.com/confluentinc/confluent-kafka-go/v2 => ../
+replace github.com/manuelate/confluent-kafka-go/v2 => ../
 
 require (
 	github.com/DataDog/datadog-go v4.8.3+incompatible

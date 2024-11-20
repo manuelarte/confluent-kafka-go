@@ -18,8 +18,8 @@ package avrov2
 
 import (
 	"fmt"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/serde"
 	"github.com/hamba/avro/v2"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/serde"
 	"github.com/modern-go/reflect2"
 	"reflect"
 	"strings"

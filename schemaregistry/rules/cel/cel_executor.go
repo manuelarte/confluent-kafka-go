@@ -18,11 +18,11 @@ package cel
 
 import (
 	"encoding/json"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/serde"
 	"github.com/google/cel-go/cel"
 	"github.com/google/cel-go/common/types"
 	"github.com/google/cel-go/ext"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/serde"
 	"google.golang.org/protobuf/proto"
 	"reflect"
 	"strings"

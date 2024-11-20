@@ -17,8 +17,8 @@
 package cel
 
 import (
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/serde"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/serde"
 )
 
 // FieldExecutor is a CEL field rule executor

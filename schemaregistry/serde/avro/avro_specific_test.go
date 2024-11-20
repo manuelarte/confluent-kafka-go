@@ -20,9 +20,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/serde"
-	"github.com/confluentinc/confluent-kafka-go/v2/schemaregistry/test"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/serde"
+	"github.com/manuelarte/confluent-kafka-go/v2/schemaregistry/test"
 )
 
 func testMessageFactorySpecific(subject string, name string) (interface{}, error) {
