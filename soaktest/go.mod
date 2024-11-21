@@ -4,11 +4,10 @@ go 1.21
 
 toolchain go1.21.0
 
-replace github.com/manuelate/confluent-kafka-go/v2 => ../
 
 require (
 	github.com/DataDog/datadog-go v4.8.3+incompatible
-	github.com/manuelarte/confluent-kafka-go/v2 v2.0.0-20241120200402-dd1c71e72ee7
+	github.com/manuelarte/confluent-kafka-go/v2 v2.0.1
 	github.com/shirou/gopsutil v3.21.11+incompatible
 )
 

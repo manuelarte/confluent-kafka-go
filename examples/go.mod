@@ -10,7 +10,7 @@ require (
 	github.com/actgardner/gogen-avro/v10 v10.2.1
 	github.com/alecthomas/kingpin v2.2.6+incompatible
 	github.com/gdamore/tcell v1.4.0
-	github.com/manuelarte/confluent-kafka-go/v2 v2.0.0-20241120200402-dd1c71e72ee7
+	github.com/manuelarte/confluent-kafka-go/v2 v2.0.1
 	google.golang.org/protobuf v1.35.2
 )
 
